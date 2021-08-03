@@ -1,0 +1,22 @@
+{
+  "name": "twitter-clone-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnxmnz/Twitter-Clone-Server.git"
+  },
+  "author": "MinJi Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnxmnz/Twitter-Clone-Server/issues"
+  },
+  "homepage": "https://github.com/mnxmnz/Twitter-Clone-Server#readme",
+  "devDependencies": {
+    "@types/node": "^16.4.10"
+  }
+}
