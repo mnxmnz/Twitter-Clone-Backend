@@ -18,5 +18,8 @@
   "homepage": "https://github.com/mnxmnz/Twitter-Clone-Server#readme",
   "devDependencies": {
     "@types/node": "^16.4.10"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

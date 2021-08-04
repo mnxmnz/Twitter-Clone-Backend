@@ -1,10 +1,11 @@
-const http = require('http');
+const express = require('express');
 
-const server = http.createServer((req, res) => {
-  console.log(req.url, req.method);
-  res.end('Hello node');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('hello express');
 });
 
-server.listen(3065, () => {
+app.listen(3065, () => {
   console.log('Server running');
 });
